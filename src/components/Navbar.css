@@ -1,0 +1,28 @@
+/* Navbar.css */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Additional styles for active link - you can add className="active" for the active route */
+  nav a.active {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
